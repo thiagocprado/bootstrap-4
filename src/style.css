@@ -1,0 +1,29 @@
+.imagem-carrossel{
+    object-fit: cover; /*a imagem cobre a área do container onde ela está inserida, porém corta aqui que não
+                        cabe dentro do mesmo*/
+    object-position: 0 50%; /*posiciona a imagem dentro do container, ajustando no eixo X e Y, respectivamente*/
+    height: 400px;
+}
+
+.fonte-titulo{
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial{
+    color: darkred !important;
+}
+
+.botao-cor-especial{
+    background-color: darkred;
+    color: white;
+}
+
+.borda-cor-espcial{
+    border-color: darkred;
+}
+
+.tamanho-imagem-card{
+    object-fit: cover;
+    max-width: 18rem;
+}
+
